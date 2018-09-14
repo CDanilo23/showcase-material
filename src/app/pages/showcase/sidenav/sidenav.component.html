@@ -1,0 +1,21 @@
+
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+      <span>Material UI </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container class="showcase-sidenav">
+  <mat-sidenav mode="side" opened>
+    
+    <mat-nav-list>
+        <a mat-list-item routerLink='/autocomplete' (onclick)="showAutocomplete()">Autocomplete</a> 
+    </mat-nav-list>
+
+  </mat-sidenav>
+  
+  <mat-sidenav-content>
+      <showcase-autocomplete></showcase-autocomplete>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
