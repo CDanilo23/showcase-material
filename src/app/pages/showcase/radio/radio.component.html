@@ -1,0 +1,6 @@
+<mat-radio-group class="showcase-radio-group" [(ngModel)]="favoritelenguage">
+  <mat-radio-button class="showcase-radio-button" *ngFor="let lenguage of lenguages" [value]="lenguage">
+    {{lenguage}}
+  </mat-radio-button>
+</mat-radio-group>
+<div class="showcase-radio-selected-value">Your favorite lenguage is: {{favoritelenguage}}</div>

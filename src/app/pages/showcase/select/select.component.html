@@ -1,0 +1,7 @@
+<mat-form-field>
+  <mat-select placeholder="Favorite DB">
+    <mat-option *ngFor="let db of dbs" [value]="db.value">
+      {{db.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

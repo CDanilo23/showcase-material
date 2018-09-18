@@ -6,25 +6,31 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AutocompleteModule } from '../autocomplete/autocomplete.module';
 
-// Material Modules
-
-import { MatSidenavModule} from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-import { MatToolbarModule } from '@angular/material/toolbar';
+// ShowCase Modules
+import { InputModule } from '../input/input.module';
+import { CheckboxModule } from '../checkbox/checkbox.module';
+import { CoreModule } from '../../core.module';
+import { RadioModule } from '../radio/radio.module';
+import { SelectModule } from '../select/select.module';
+import { DatepickerModule } from '../datepicker/datepicker.module';
 
 // Components
 import { SidenavComponent } from './sidenav.component';
+
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserAnimationsModule,
     FormsModule,
-    MatSidenavModule,
     ReactiveFormsModule,
-    MatListModule,
-    MatToolbarModule,
-    AutocompleteModule
+    CoreModule,
+    AutocompleteModule,
+    InputModule,
+    CheckboxModule,
+    RadioModule,
+    SelectModule,
+    DatepickerModule
   ],
   exports: [SidenavComponent],
   declarations: [SidenavComponent],

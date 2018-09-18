@@ -21,11 +21,59 @@
       margin-left: 8px;
   }
 
+  .showcase-sidenav-container {
+    width: flex;
+    height: 500px;
+  }
+
   .showcase-sidenav {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #eee;
+    padding: 10px;
+  }
+
+  .showcase-input-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .showcase-input-form-field {
+    width: 200px;
+  }
+
+  .showcase-input-full-width {
+    width: 100%;
+  }
+
+  .showcase-checkbox-h2 {
+    margin: 10px;
+  }
+  
+  .showcase-checkbox-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .showcase-checkbox-margin {
+    margin: 0 10px;
+  }
+
+  /*Radio Styles*/
+
+  .showcase-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .showcase-radio-button {
+    margin: 5px;
+  }
+  
+  .showcase-radio-selected-value {
+    margin: 15px 0;
+  }
+
+  .showcase-datepicker-full-width {
+    width: 100%;
   }
